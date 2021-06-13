@@ -14,7 +14,7 @@
     var jumpURL = url.searchParams.get("jump");
     var url = new URL(jumpURL);
     url.searchParams.append("ticket", ticket);
-    window.location.href = url.href;
+    window.location.replace(url.href);
 </script>
 </body>
 </html>
